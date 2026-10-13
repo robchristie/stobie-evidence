@@ -17,7 +17,22 @@ sha256sum --check --quiet evidence-archive.sha256
 
 Stobie tracks the same manifest as `docs/evidence-archive.sha256`.
 
+## Original Stobie history
+
+After this archive was made, Stobie's history was rewritten to remove the same
+files from every commit. That gave every commit on Stobie's rewritten branches
+except the root a new ID and removed the GitHub signatures that most of them
+carried. The
+[`archive-2026-10-13` release](https://github.com/robchristie/stobie-evidence/releases/tag/archive-2026-10-13)
+holds a complete Git bundle of the original history and a map from original
+to rewritten commit IDs. Stobie's
+[evidence archive guide](https://github.com/robchristie/stobie/blob/main/docs/evidence-archive.md#history)
+describes the rewrite.
+
+## Rules
+
 This repository is append-only. Add later archives in new commits and never
-rewrite its history, because Stobie's permalinks depend on it.
+rewrite its history, because Stobie's permalinks depend on it. Rulesets block
+force-pushing or deleting `main` and moving or deleting `archive-*` tags.
 
 Licensed under the same terms as Stobie, the [Apache License 2.0](LICENSE).
