@@ -20,7 +20,8 @@ Stobie tracks the same manifest as `docs/evidence-archive.sha256`.
 ## Original Stobie history
 
 After this archive was made, Stobie's history was rewritten to remove the same
-files from every commit, which changed every Stobie commit ID. The
+files from every commit. That gave every commit on Stobie's rewritten branches
+except the root a new ID and removed GitHub's signatures from them. The
 [`archive-2026-10-13` release](https://github.com/robchristie/stobie-evidence/releases/tag/archive-2026-10-13)
 holds a complete Git bundle of the original history and a map from original
 to rewritten commit IDs. Stobie's
