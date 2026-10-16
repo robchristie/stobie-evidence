@@ -1,0 +1,892 @@
+{
+  "sessions": [
+    {
+      "build": "default",
+      "session": "ab7cad6e",
+      "browser": "Chrome for iOS 155.0.8059.37",
+      "standalone": false,
+      "launch": 1,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        748
+      ],
+      "dpr": 3,
+      "service_worker_controlled": false,
+      "startup": {
+        "transfer_bytes": 2684297,
+        "bootstrap": 423,
+        "wasm_init_begin": 423,
+        "wasm_init_end": 591,
+        "framework_start_begin": 591,
+        "application_construct_begin": 598,
+        "application_construct_end": 599,
+        "framework_start_end": 601,
+        "workspace_ui_complete": 655,
+        "workspace_frame_submitted": 669,
+        "rendering_opportunity_proxy": 680
+      },
+      "returned_after_hidden_ms": [
+        122862,
+        27684
+      ],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 1
+      },
+      "input_types": [],
+      "visible_frame_windows": 1,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 3,
+        "windows": 1,
+        "cpu_ms_p50_of_windows": 2,
+        "cpu_ms_p95_max_window": 5,
+        "cpu_ms_max": 5,
+        "over_16ms": 0
+      }
+    },
+    {
+      "build": "default",
+      "session": "e39546c4",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 1,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "47px",
+        "right": "0px",
+        "bottom": "34px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": false,
+      "startup": {
+        "transfer_bytes": 2685848,
+        "bootstrap": 123,
+        "wasm_init_begin": 123,
+        "wasm_init_end": 321,
+        "framework_start_begin": 321,
+        "application_construct_begin": 330,
+        "application_construct_end": 331,
+        "framework_start_end": 334,
+        "workspace_ui_complete": 390,
+        "workspace_frame_submitted": 408,
+        "rendering_opportunity_proxy": 429
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 6,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 4
+      },
+      "input_types": [
+        "insertText"
+      ],
+      "visible_frame_windows": 2,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 92,
+        "windows": 2,
+        "cpu_ms_p50_of_windows": 3.0,
+        "cpu_ms_p95_max_window": 7,
+        "cpu_ms_max": 29,
+        "over_16ms": 1
+      }
+    },
+    {
+      "build": "default",
+      "session": "ebf770b5",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 2,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 1200,
+        "bootstrap": 43,
+        "wasm_init_begin": 43,
+        "wasm_init_end": 138,
+        "framework_start_begin": 138,
+        "application_construct_begin": 145,
+        "application_construct_end": 147,
+        "framework_start_end": 149,
+        "workspace_ui_complete": 216,
+        "workspace_frame_submitted": 235,
+        "rendering_opportunity_proxy": 253
+      },
+      "returned_after_hidden_ms": [
+        934200,
+        66903,
+        115966,
+        6749,
+        65790,
+        165810
+      ],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 19,
+        "text.paste": 1,
+        "text.compositionstart": 0,
+        "text.focusin": 74
+      },
+      "input_types": [
+        "deleteContentBackward",
+        "insertText"
+      ],
+      "visible_frame_windows": 16,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 3364,
+        "windows": 16,
+        "cpu_ms_p50_of_windows": 3.0,
+        "cpu_ms_p95_max_window": 7,
+        "cpu_ms_max": 22,
+        "over_16ms": 2
+      }
+    },
+    {
+      "build": "default",
+      "session": "a1e9a00c",
+      "browser": "Chrome for iOS 155.0.8059.37",
+      "standalone": false,
+      "launch": 2,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        748
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 1200,
+        "bootstrap": 328,
+        "wasm_init_begin": 328,
+        "wasm_init_end": 419,
+        "framework_start_begin": 419,
+        "application_construct_begin": 427,
+        "application_construct_end": 428,
+        "framework_start_end": 431,
+        "workspace_ui_complete": 497,
+        "workspace_frame_submitted": 516,
+        "rendering_opportunity_proxy": 538
+      },
+      "returned_after_hidden_ms": [
+        642782
+      ],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 1
+      },
+      "input_types": [],
+      "visible_frame_windows": 1,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 121,
+        "windows": 1,
+        "cpu_ms_p50_of_windows": 2,
+        "cpu_ms_p95_max_window": 3,
+        "cpu_ms_max": 33,
+        "over_16ms": 1
+      }
+    },
+    {
+      "build": "default",
+      "session": "9398179e",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 3,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "47px",
+        "right": "0px",
+        "bottom": "34px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 300,
+        "bootstrap": 57,
+        "wasm_init_begin": 57,
+        "wasm_init_end": 130,
+        "framework_start_begin": 130,
+        "application_construct_begin": 137,
+        "application_construct_end": 139,
+        "framework_start_end": 141,
+        "workspace_ui_complete": 195,
+        "workspace_frame_submitted": 216,
+        "rendering_opportunity_proxy": 242
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 1
+      },
+      "input_types": [],
+      "visible_frame_windows": 1,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 106,
+        "windows": 1,
+        "cpu_ms_p50_of_windows": 2,
+        "cpu_ms_p95_max_window": 3,
+        "cpu_ms_max": 4,
+        "over_16ms": 0
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "adf1a511",
+      "browser": "Chrome for iOS 155.0.8059.37",
+      "standalone": false,
+      "launch": 1,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        748
+      ],
+      "dpr": 3,
+      "service_worker_controlled": false,
+      "startup": {
+        "transfer_bytes": 3869607,
+        "bootstrap": 488,
+        "wasm_init_begin": 488,
+        "wasm_init_end": 690,
+        "framework_start_begin": 690,
+        "application_construct_begin": 717,
+        "application_construct_end": 719,
+        "framework_start_end": 723,
+        "workspace_ui_complete": 789,
+        "workspace_frame_submitted": 1218,
+        "rendering_opportunity_proxy": 1287
+      },
+      "returned_after_hidden_ms": [
+        825,
+        6184,
+        78096
+      ],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 1
+      },
+      "input_types": [],
+      "visible_frame_windows": 5,
+      "longest_idle_run": {
+        "windows": 1,
+        "seconds": 10,
+        "raf_ticks": 602,
+        "paints": 0,
+        "idle_tick_ms_max": 1
+      },
+      "paint": {
+        "paints": 274,
+        "windows": 3,
+        "cpu_ms_p50_of_windows": 2,
+        "cpu_ms_p95_max_window": 3,
+        "cpu_ms_max": 5,
+        "over_16ms": 0
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "2dbaab78",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 1,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "47px",
+        "right": "0px",
+        "bottom": "34px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": false,
+      "startup": {
+        "transfer_bytes": 3871253,
+        "bootstrap": 239,
+        "wasm_init_begin": 239,
+        "wasm_init_end": 454,
+        "framework_start_begin": 455,
+        "application_construct_begin": 728,
+        "application_construct_end": 730,
+        "framework_start_end": 734,
+        "workspace_ui_complete": 843,
+        "workspace_frame_submitted": 1000,
+        "rendering_opportunity_proxy": 1048
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 13,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 6
+      },
+      "input_types": [
+        "insertText"
+      ],
+      "visible_frame_windows": 7,
+      "longest_idle_run": {
+        "windows": 1,
+        "seconds": 10,
+        "raf_ticks": 602,
+        "paints": 0,
+        "idle_tick_ms_max": 1
+      },
+      "paint": {
+        "paints": 512,
+        "windows": 6,
+        "cpu_ms_p50_of_windows": 2.5,
+        "cpu_ms_p95_max_window": 11,
+        "cpu_ms_max": 52,
+        "over_16ms": 1
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "652813f8",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 2,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "47px",
+        "right": "0px",
+        "bottom": "34px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 1200,
+        "bootstrap": 84,
+        "wasm_init_begin": 84,
+        "wasm_init_end": 198,
+        "framework_start_begin": 198,
+        "application_construct_begin": 212,
+        "application_construct_end": 215,
+        "framework_start_end": 218,
+        "workspace_ui_complete": 278,
+        "workspace_frame_submitted": 298,
+        "rendering_opportunity_proxy": 321
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 13,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 8
+      },
+      "input_types": [
+        "insertText"
+      ],
+      "visible_frame_windows": 7,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 938,
+        "windows": 7,
+        "cpu_ms_p50_of_windows": 4,
+        "cpu_ms_p95_max_window": 10,
+        "cpu_ms_max": 42,
+        "over_16ms": 2
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "05084887",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 3,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": null,
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 1
+      },
+      "input_types": [],
+      "visible_frame_windows": 0,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": null
+    },
+    {
+      "build": "cjk",
+      "session": "aa74c676",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 4,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "47px",
+        "right": "0px",
+        "bottom": "34px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 600,
+        "bootstrap": 95,
+        "wasm_init_begin": 95,
+        "wasm_init_end": 226,
+        "framework_start_begin": 226,
+        "application_construct_begin": 241,
+        "application_construct_end": 243,
+        "framework_start_end": 246,
+        "workspace_ui_complete": 72180,
+        "workspace_frame_submitted": 72195,
+        "rendering_opportunity_proxy": 72202
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 15,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 20
+      },
+      "input_types": [
+        "deleteContentBackward",
+        "insertText"
+      ],
+      "visible_frame_windows": 9,
+      "longest_idle_run": {
+        "windows": 1,
+        "seconds": 10,
+        "raf_ticks": 602,
+        "paints": 0,
+        "idle_tick_ms_max": 1
+      },
+      "paint": {
+        "paints": 1138,
+        "windows": 8,
+        "cpu_ms_p50_of_windows": 3.0,
+        "cpu_ms_p95_max_window": 9,
+        "cpu_ms_max": 86,
+        "over_16ms": 1
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "6936227f",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 5,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 300,
+        "bootstrap": 243,
+        "wasm_init_begin": 243,
+        "wasm_init_end": 346,
+        "framework_start_begin": 346,
+        "application_construct_begin": 383,
+        "application_construct_end": 385,
+        "framework_start_end": 393,
+        "workspace_ui_complete": 478,
+        "workspace_frame_submitted": 494,
+        "rendering_opportunity_proxy": 516
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 4
+      },
+      "input_types": [],
+      "visible_frame_windows": 1,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 117,
+        "windows": 1,
+        "cpu_ms_p50_of_windows": 2,
+        "cpu_ms_p95_max_window": 5,
+        "cpu_ms_max": 44,
+        "over_16ms": 1
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "9f7dc964",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 6,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 300,
+        "bootstrap": 56,
+        "wasm_init_begin": 56,
+        "wasm_init_end": 147,
+        "framework_start_begin": 147,
+        "application_construct_begin": 154,
+        "application_construct_end": 155,
+        "framework_start_end": 157,
+        "workspace_ui_complete": 226,
+        "workspace_frame_submitted": 243,
+        "rendering_opportunity_proxy": 253
+      },
+      "returned_after_hidden_ms": [],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 0,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 1
+      },
+      "input_types": [],
+      "visible_frame_windows": 1,
+      "longest_idle_run": {
+        "windows": 0,
+        "seconds": 0,
+        "raf_ticks": 0,
+        "paints": 0,
+        "idle_tick_ms_max": null
+      },
+      "paint": {
+        "paints": 3,
+        "windows": 1,
+        "cpu_ms_p50_of_windows": 2,
+        "cpu_ms_p95_max_window": 2,
+        "cpu_ms_max": 2,
+        "over_16ms": 0
+      }
+    },
+    {
+      "build": "cjk",
+      "session": "5cfb6361",
+      "browser": "Safari 26.6.1",
+      "standalone": true,
+      "launch": 7,
+      "renderer": "webgpu",
+      "adapter": "apple",
+      "selection": "preferred",
+      "safe_area": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "viewport": [
+        428,
+        879
+      ],
+      "dpr": 3,
+      "service_worker_controlled": true,
+      "startup": {
+        "transfer_bytes": 300,
+        "bootstrap": 64,
+        "wasm_init_begin": 64,
+        "wasm_init_end": 163,
+        "framework_start_begin": 163,
+        "application_construct_begin": 179,
+        "application_construct_end": 181,
+        "framework_start_end": 184,
+        "workspace_ui_complete": 255,
+        "workspace_frame_submitted": 273,
+        "rendering_opportunity_proxy": 283
+      },
+      "returned_after_hidden_ms": [
+        19666,
+        163996,
+        71558,
+        25073,
+        424881,
+        2438,
+        7015
+      ],
+      "gpu_loss_events": 0,
+      "errors": 0,
+      "text_events": {
+        "text.input": 23,
+        "text.paste": 0,
+        "text.compositionstart": 0,
+        "text.focusin": 46
+      },
+      "input_types": [
+        "insertText"
+      ],
+      "visible_frame_windows": 90,
+      "longest_idle_run": {
+        "windows": 58,
+        "seconds": 580,
+        "raf_ticks": 34912,
+        "paints": 0,
+        "idle_tick_ms_max": 4
+      },
+      "paint": {
+        "paints": 1088,
+        "windows": 10,
+        "cpu_ms_p50_of_windows": 2.0,
+        "cpu_ms_p95_max_window": 6,
+        "cpu_ms_max": 36,
+        "over_16ms": 1
+      }
+    }
+  ],
+  "payload": {
+    "default": {
+      "index.html": {
+        "raw": 4153,
+        "br": 1260,
+        "gz": 1597
+      },
+      "bootstrap.js": {
+        "raw": 953,
+        "br": 439,
+        "gz": 513
+      },
+      "browser-startup.js": {
+        "raw": 11603,
+        "br": 3112,
+        "gz": 3633
+      },
+      "spike-diagnostics.js": {
+        "raw": 15565,
+        "br": 4587,
+        "gz": 5338
+      },
+      "ios_spike.js": {
+        "raw": 159454,
+        "br": 19796,
+        "gz": 24067
+      },
+      "ios_spike_bg.wasm": {
+        "raw": 10278929,
+        "br": 2649933,
+        "gz": 3681920
+      },
+      "total": {
+        "raw": 10470657,
+        "br": 2679127,
+        "gz": 3717068
+      }
+    },
+    "cjk": {
+      "index.html": {
+        "raw": 4153,
+        "br": 1256,
+        "gz": 1598
+      },
+      "bootstrap.js": {
+        "raw": 953,
+        "br": 439,
+        "gz": 513
+      },
+      "browser-startup.js": {
+        "raw": 11603,
+        "br": 3112,
+        "gz": 3633
+      },
+      "spike-diagnostics.js": {
+        "raw": 15565,
+        "br": 4587,
+        "gz": 5338
+      },
+      "ios_spike.js": {
+        "raw": 159454,
+        "br": 19796,
+        "gz": 24067
+      },
+      "ios_spike_bg.wasm": {
+        "raw": 12074198,
+        "br": 3834604,
+        "gz": 5113654
+      },
+      "total": {
+        "raw": 12265926,
+        "br": 3863794,
+        "gz": 5148803
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "command": "stobie attach spike --cdp http://127.0.0.1:9333 --page http://127.0.0.1:8471/ios-spike/?automation=1 --timeout 60000",
+    "status": 0,
+    "output": "attached spike: iOS spike 0.1.0 · browser http://127.0.0.1:9333 page http://127.0.0.1:8471/ios-spike/?automation=1\nnext: stobie observe --session spike\n"
+  },
+  {
+    "command": "stobie observe --session spike",
+    "status": 0,
+    "output": "iOS spike 0.1.0 · observation 3 · instance 72088897-4c90-4dc4-a002-d67cb4e0558d\nfacts: bot=\"Grok Helper\" conversation_visible=false draft=\"\" last_message=\"Sure. The short version is that the scheduler keeps a bounded queue per worker, …\" layout=\"stacked\" messages=200 pinned=true replies=0 scroll=\"\" status=\"\" stream_tokens=0 streaming=false\naudits: 12 semantic, 0 text findings (see --json)\n- section \"Bots\" #ios-spike.bots\n  - result_row \"Grok Helper, Sure. The short version is that the scheduler keeps a bounde…\" #ios-spike.bot.1\n  - result_row \"Code Reviewer, Thanks!\" #ios-spike.bot.2\n  - result_row \"Travel Planner, Can you say that more simply?\" #ios-spike.bot.3\n  - result_row \"Recipe Bot, Sure. The short version is that the scheduler keeps a bounde…\" #ios-spike.bot.4\n  - result_row \"Fitness Coach, ❤\\u{fe0f}🔥✨💯🙏🏽 ok ok 😅\" #ios-spike.bot.5\n  - result_row \"日本語チューター, Family: 👨\\u{200d}👩\\u{200d}👧\\u{200d}👦 skin tones: 👍🏻👍🏽👍🏿 flags: 🇦🇺🇯🇵🇫🇷\" #ios-spike.bot.6\n  - result_row \"Research Assistant, Today's summary: markets were flat, the storm moved south ov…\" #ios-spike.bot.7\n  - result_row \"Shell Wizard, 这个函数的返回值是什么意思？能不能用简单的话解释一下？\" #ios-spike.bot.8\n  - result_row \"中文老师, Sure. The short version is that the scheduler keeps a bounde…\" #ios-spike.bot.9\n  - result_row \"Garden Advisor, Here it is: https://example.com/a/very/long/path/that/keeps/…\" #ios-spike.bot.10\n  - result_row \"Budget Buddy, Hmm 🤔\" #ios-spike.bot.11\n  - result_row \"Poetry Muse, ok\" #ios-spike.bot.12\n  - result_row \"Rust Mentor, Here is a plan for the week: Monday is upper body and a shor…\" #ios-spike.bot.13\n  - result_row \"News Digest, Thanks!\" #ios-spike.bot.14\n  - result_row \"Movie Critic, Sure. The short version is that the scheduler keeps a bounde…\" #ios-spike.bot.15\n  - result_row \"Language Swap, Wait, really?\" #ios-spike.bot.16\n  - result_row \"Home Lab, Mixed: 我们 meet at 3pm 在 the 咖啡店 ☕ 好吗？\" #ios-spike.bot.17\n  - result_row \"Chess Partner, I looked at the three options you sent. The first is the che…\" #ios-spike.bot.18\n  - result_row \"Weather Watch, Today's summary: markets were flat, the storm moved south ov…\" #ios-spike.bot.19\n  - result_row \"Daily Journal, Can you say that more simply?\" #ios-spike.bot.20\nother capabilities: ios-spike.send (disabled: Type a message first); ios-spike.back (hidden); ios-spike.open-bot: integer 1..20; ios-spike.stop-reply (hidden); ios-spike.jump-to-latest (hidden); ios-spike.long-history\n"
+  },
+  {
+    "command": "stobie discover --session spike",
+    "status": 0,
+    "output": "- ios-spike.send (disabled: Type a message first) · \"Send\" · Ctrl/Cmd+Enter · on #action.ios-spike.send (not rendered)\n- ios-spike.back (hidden) · \"Back\" · on #action.ios-spike.back (not rendered)\n- ios-spike.open-bot: integer 1..20 · \"Open bot\" · on #action.ios-spike.open-bot (not rendered)\n  Open a bot's conversation by its number, 1 to 20\n- ios-spike.stop-reply (hidden) · \"Stop reply\" · on #action.ios-spike.stop-reply (not rendered)\n- ios-spike.jump-to-latest (hidden) · \"Jump to latest\" · on #action.ios-spike.jump-to-latest (not rendered)\n- ios-spike.long-history · \"Long history\" · on #action.ios-spike.long-history (not rendered)\n6 of 6 capabilities · observation 3\n"
+  },
+  {
+    "command": "stobie invoke ios-spike.open-bot --value 9 --session spike",
+    "status": 0,
+    "output": "completed stobie-1a884f-18deedbeda73d13c-4 · ios-spike.open-bot on #action.ios-spike.open-bot · observation 6\nchanged: bot: \"Grok Helper\" → \"中文老师\", conversation_visible: false → true, messages: 200 → 33, scroll: \"\" → \"offset 2947.5 end 2947.5 content 3513.5 inner 566.0\"\nnodes changed: 25\n  added section \"Conversation with 中文老师\" #ios-spike.conversation\n  added button \"Back\" #presentation.6a20c1fa4e5a16ec\n  added multiline_text_input \"Message\" = \"\" #ios-spike.draft\n  added button \"Send\" disabled(Type a message first) #presentation.f5a810b0c440038d\n  removed section \"Bots\" #ios-spike.bots\n  removed result_row \"Grok Helper, Sure. The short version is that the scheduler keeps a bounde…\" #ios-spike.bot.1\n  … 19 more; --json lists up to 32\n"
+  },
+  {
+    "command": "stobie observe --session spike",
+    "status": 0,
+    "output": "iOS spike 0.1.0 · observation 6 · instance 72088897-4c90-4dc4-a002-d67cb4e0558d\nfacts: bot=\"中文老师\" conversation_visible=true draft=\"\" last_message=\"Sure. The short version is that the scheduler keeps a bounded queue per worker, …\" layout=\"stacked\" messages=33 pinned=true replies=0 scroll=\"offset 2947.5 end 2947.5 content 3513.5 inner 566.0\" status=\"\" stream_tokens=0 streaming=false\naudits: clear\n- section \"Conversation with 中文老师\" #ios-spike.conversation\n  - button \"Back\" #presentation.6a20c1fa4e5a16ec [ios-spike.back]\n  - multiline_text_input \"Message\" = \"\" #ios-spike.draft [set-text]\n  - button \"Send\" disabled(Type a message first) #presentation.f5a810b0c440038d [ios-spike.send (disabled: Type a message first)]\nother capabilities: ios-spike.open-bot: integer 1..20; ios-spike.stop-reply (hidden); ios-spike.jump-to-latest (hidden); ios-spike.long-history\n"
+  },
+  {
+    "command": "stobie set-text ios-spike.draft Line one from the CLI\nLine two 你好 👋 --session spike",
+    "status": 0,
+    "output": "completed stobie-1a8851-18deedbede0dce82-4 · stobie.set-text on #ios-spike.draft · observation 9\nchanged: draft: \"\" → \"Line one from the CLI⏎Line two 你好 👋\"\nnodes changed: 2\n  changed multiline_text_input \"Message\" = \"Line one from the CLI⏎Line two 你好 👋\" #ios-spike.draft\n  changed button \"Send\" #presentation.f5a810b0c440038d\n"
+  },
+  {
+    "command": "stobie invoke ios-spike.send --session spike",
+    "status": 0,
+    "output": "completed stobie-1a8852-18deedbee146fb1e-4 · ios-spike.send on #presentation.f5a810b0c440038d · observation 12\nchanged: draft: \"Line one from the CLI⏎Line two 你好 👋\" → \"\", last_message: \"Sure. The short version is that the scheduler keeps a bounded queue per worker, …\" → \"Here \", messages: 33 → 35, pinned: true → false, scroll: \"offset 2947.5 end 2947.5 content 3513.5 inner 566.0\" → \"offset 2964.8 end 3086.8 content 3635.5 inner 548.7\", status: \"\" → \"Streaming reply\", stream_tokens: 0 → 1, streaming: false → true\nnodes changed: 4\n  added button \"Stop reply\" #presentation.bd0f3dedf83cb8a8\n  changed multiline_text_input \"Message\" = \"\" #ios-spike.draft\n  changed button \"Send\" disabled(Type a message first) #presentation.f5a810b0c440038d\n  added button \"Jump to latest\" #presentation.b9e983a4ddbc28f1\n"
+  },
+  {
+    "command": "stobie wait fact --key replies --value 1 --session spike --timeout 20000",
+    "status": 0,
+    "output": "holds at observation 267\n"
+  },
+  {
+    "command": "stobie observe --session spike --json",
+    "status": 0,
+    "output": "{\"schema_version\":1,\"command\":\"observe\",\"ok\":true,\"instance\":\"72088897-4c90-4dc4-a002-d67cb4e0558d\",\"application\":{\"name\":\"iOS spike\",\"build\":{\"version\":\"0.1.0\",\"source_revision\":null}},\"observation\":267,\"facts\":{\"bot\":\"中文老师\",\"conversation_visible\":true,\"draft\":\"\",\"last_message\":\"Here is a streamed reply. Tokens arrive on a timer so the transcript has to stay pinned to the bottom while it grows, un…\",\"layout\":\"stacked\",\"messages\":35,\"pinned\":true,\"replies\":1,\"scroll\":\"offset 3069.5 end 3069.5 content 3635.5 inner 566.0\",\"status\":\"Reply complete\",\"stream_tokens\":0,\"streaming\":false},\"collections\":[],\"audits\":{\"semantic\":[],\"text\":[],\"coverage_collected\":true},\"nodes_total\":4,\"offset\":0,\"nodes\":[{\"id\":\"ios-spike.conversation\",\"parent\":null,\"role\":\"section\",\"name\":\"Conversation with 中文老师\",\"enabled\":true,\"disabled_reason\":null,\"focused\":false,\"selected\":false,\"checked\":null,\"expanded\":null,\"value\":null,\"pane\":null,\"domain\":null,\"capabilities\":[]},{\"id\":\"presentation.6a20c1fa4e5a16ec\",\"parent\":\"ios-spike.conversation\",\"role\":\"button\",\"name\":\"Back\",\"enabled\":true,\"disabled_reason\":null,\"focused\":false,\"selected\":false,\"checked\":null,\"expanded\":null,\"value\":null,\"pane\":null,\"domain\":null,\"capabilities\":[\"ios-spike.back\"]},{\"id\":\"ios-spike.draft\",\"parent\":\"ios-spike.conversation\",\"role\":\"multiline_text_input\",\"name\":\"Message\",\"enabled\":true,\"disabled_reason\":null,\"focused\":false,\"selected\":false,\"checked\":null,\"expanded\":null,\"value\":\"\",\"pane\":null,\"domain\":null,\"capabilities\":[\"stobie.set-text\"]},{\"id\":\"presentation.f5a810b0c440038d\",\"parent\":\"ios-spike.conversation\",\"role\":\"button\",\"name\":\"Send\",\"enabled\":false,\"disabled_reason\":\"Type a message first\",\"focused\":false,\"selected\":false,\"checked\":null,\"expanded\":null,\"value\":null,\"pane\":null,\"domain\":null,\"capabilities\":[\"ios-spike.send\"]}],\"truncated\":false,\"next_offset\":null,\"capabilities_not_rendered\":[\"ios-spike.open-bot\",\"ios-spike.stop-reply\",\"ios-spike.jump-to-latest\",\"ios-spike.long-history\"],\"omitted\":[\"geometry\",\"text_observations\"]}\n"
+  },
+  {
+    "command": "stobie capture --output .spike-runtime/precheck/cli/cli-capture.png --session spike",
+    "status": 0,
+    "output": "captured .spike-runtime/precheck/cli/cli-capture.png between observations 267 and 267\n"
+  },
+  {
+    "command": "stobie stop spike",
+    "status": 0,
+    "output": "detached spike; the page keeps running\n"
+  }
+]
