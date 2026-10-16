@@ -1,0 +1,209 @@
+{
+  "browser": "chromium",
+  "renderer": "webgpu",
+  "started": "2026-10-16T22:06:51.173Z",
+  "checks": [
+    {
+      "name": "startup",
+      "ok": true,
+      "renderer": "webgpu",
+      "selection": "forced",
+      "reason": "forced by ?renderer=webgpu",
+      "failure": null
+    },
+    {
+      "name": "stacked layout below 640 points",
+      "ok": true,
+      "layout": "stacked"
+    },
+    {
+      "name": "ARIA layer exposes bot rows",
+      "ok": true,
+      "visibleRows": 20
+    },
+    {
+      "name": "tap list row opens conversation",
+      "ok": true,
+      "at": {
+        "x": 195,
+        "y": 225
+      },
+      "bot": "Travel Planner"
+    },
+    {
+      "name": "tap Back returns to list",
+      "ok": true
+    },
+    {
+      "name": "long conversation opens at the bottom",
+      "ok": true,
+      "messages": 200,
+      "scroll": "offset 21033.2 end 21033.2 content 21599.2 inner 566.0"
+    },
+    {
+      "name": "touch drag scrolls the transcript up",
+      "ok": true,
+      "route": "cdp",
+      "framesDuringDrag": 62,
+      "cpu_p95": 3
+    },
+    {
+      "name": "Jump to latest appears when scrolled up",
+      "ok": true,
+      "elements": 1
+    },
+    {
+      "name": "Jump to latest pins again",
+      "ok": true
+    },
+    {
+      "name": "typing reaches the composer",
+      "ok": true,
+      "draft": "Hello from emulation",
+      "focused": "INPUT#stobie-a11y:text-agent-0"
+    },
+    {
+      "name": "Enter inserts a newline (multiline draft)",
+      "ok": true,
+      "draft": "Hello from emulation\nSecond line"
+    },
+    {
+      "name": "paste event reaches the composer",
+      "ok": true,
+      "draft": "Hello from emulation\nSecond line 📋 pasted 你好",
+      "target": "INPUT",
+      "prevented": true
+    },
+    {
+      "name": "Send starts a streamed reply",
+      "ok": true,
+      "draft": ""
+    },
+    {
+      "name": "reply streams for about 10 s and stays pinned",
+      "ok": true,
+      "durationMs": 10551,
+      "samples": 22,
+      "unpinned": 0,
+      "frames": 234,
+      "cpu_p50": 1.9,
+      "cpu_p95": 2.5
+    },
+    {
+      "name": "scrolling up during a stream stays unpinned",
+      "ok": true,
+      "pinned": false,
+      "tokens": 59
+    },
+    {
+      "name": "idle presents no frames",
+      "ok": true,
+      "paints": 0,
+      "rafTicks": 300
+    },
+    {
+      "name": "landscape (844 points) uses the split layout",
+      "ok": true,
+      "layout": "split"
+    }
+  ],
+  "notes": [],
+  "browserVersion": "151.0.7922.34",
+  "startup": {
+    "wallMs": 262,
+    "status": "ready",
+    "phase": "ready",
+    "failure": null,
+    "milestones": {
+      "bootstrap": {
+        "atMs": 93.89999985694885,
+        "epochMs": 1792188411325.5
+      },
+      "wasm_init_begin": {
+        "atMs": 94,
+        "epochMs": 1792188411325.6
+      },
+      "wasm_init_end": {
+        "atMs": 172.20000004768372,
+        "epochMs": 1792188411403.8
+      },
+      "framework_start_begin": {
+        "atMs": 172.20000004768372,
+        "epochMs": 1792188411403.8
+      },
+      "application_construct_begin": {
+        "atMs": 205.70000004768372,
+        "epochMs": 1792188411437.3
+      },
+      "application_construct_end": {
+        "atMs": 206.20000004768372,
+        "epochMs": 1792188411437.8
+      },
+      "framework_start_end": {
+        "atMs": 208.20000004768372,
+        "epochMs": 1792188411439.8
+      },
+      "workspace_ui_complete": {
+        "atMs": 245.5,
+        "epochMs": 1792188411477.1
+      },
+      "workspace_frame_submitted": {
+        "atMs": 252.89999985694885,
+        "epochMs": 1792188411484.5
+      },
+      "rendering_opportunity_proxy": {
+        "atMs": 253.79999995231628,
+        "epochMs": 1792188411485.4001
+      }
+    },
+    "renderer": {
+      "stobieRenderer": "webgpu",
+      "stobieRendererAdapter": "SwiftShader Device (Subzero)",
+      "stobieRendererSelection": "forced",
+      "stobieRendererReason": "forced by ?renderer=webgpu"
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "dpr": 3,
+    "inner": [
+      390,
+      664
+    ],
+    "webgpu": true,
+    "resources": [
+      {
+        "name": "bootstrap.js",
+        "transfer": 739,
+        "encoded": 439
+      },
+      {
+        "name": "spike-diagnostics.js",
+        "transfer": 4887,
+        "encoded": 4587
+      },
+      {
+        "name": "browser-startup.js",
+        "transfer": 3412,
+        "encoded": 3112
+      },
+      {
+        "name": "ios_spike.js",
+        "transfer": 20096,
+        "encoded": 19796
+      },
+      {
+        "name": "ios_spike_bg.wasm",
+        "transfer": 2650233,
+        "encoded": 2649933
+      }
+    ]
+  },
+  "observation": {
+    "bytes": 12171,
+    "nodes": 25
+  },
+  "console": [],
+  "serviceWorker": {
+    "controller": true,
+    "registrations": 1
+  }
+}
