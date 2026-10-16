@@ -650,7 +650,7 @@ a4ed91010759ffd17721ea4c98386722cef95105dfb84725f7ea202a6621a8a2  docs/vertical-
 fa243ecfaf8c453336a57a4a23e6fd547f15ff1ef3894ac2652898af444ab227  docs/vertical-slice-evidence/native-semantic.json
 0511c51c249aab4ea7eecd475e394bea958b1e08e5f4ad824e174f41cfc859c4  docs/vertical-slice-evidence/native-thumbnails.png
 7a6d6d53f7585a3fea57123ed8ff073804624b89899716e3b8a51d0e2b1c8cf3  docs/vertical-slice-evidence/native-xvfb.log
-4927f16278f05a6ca4ea781602c295b5df5ed559f9679c271e370ebd024da343  docs/ios-pwa-spike-evidence/README.md
+69c98ba3a91612d862c073f798a39a5f55a53e96751bda2c3b7b57e78680018f  docs/ios-pwa-spike-evidence/README.md
 e19ce33fd15a03fa306a994de6401cce3e70fcd8978bf5dfdd6b0361ba0fe103  docs/ios-pwa-spike-evidence/device-logs/device-cjk.jsonl
 0a44bf8fd7464c311e3de3812f253dc7db6a03963298aa79d1ed3c894bc86223  docs/ios-pwa-spike-evidence/device-logs/device-default.jsonl
 5bbd481686c72771cf5c987d97de80a5c962dc636921a6a16468fd6b708435a7  docs/ios-pwa-spike-evidence/precheck/chromium-cjk-webgpu/01-list.png

@@ -9,11 +9,13 @@ The spike's source stayed local; the report describes it.
 - `device-logs/device-default.jsonl` and `device-cjk.jsonl`: the batches the
   page posted to the spike server from the phone, one JSON object per batch,
   for the default build and the build with a CJK fallback font. Only
-  real-device sessions are kept (Safari 26.6.1 home-screen launches and two
-  Chrome for iOS 155 tab sessions). Typed values and clipboard text were
-  removed, the client address was dropped and the tailnet host name was
-  replaced with `TAILNET-HOST`. The event types and input types are as
-  recorded.
+  real-device sessions are kept: Safari 26.6.1 home-screen launches, and three
+  Chrome for iOS 155 tab sessions (two on the default build, one on the CJK
+  build). Field values (`value`) and clipboard text were removed, the client
+  address was dropped and the tailnet host name was replaced with
+  `TAILNET-HOST`. Per-keystroke `data` and `key` fields and one
+  `dom_selection` text are kept as input evidence; they hold only throwaway
+  test input. Event types and input types are as recorded.
 - `summary.json`: per-session figures derived from those logs (renderer,
   startup milestones and transferred bytes, idle runs, paint timings, focus
   and text event counts), and the production package sizes.
