@@ -1,0 +1,1532 @@
+{
+  "source_revision": "51c521b0e6e747b1da1b3f66013b70af8e6955f9",
+  "dirty": false,
+  "wasm_sha256": "b96aef835b53cdf1d3a62d8ed07aa8b506a2831ef2de3b81dbdb4f2e2f785644",
+  "browser": "151.0.7922.34",
+  "viewport": "1440x900",
+  "captures": [
+    {
+      "name": "document-narrow-dark-opening",
+      "image": "document-narrow-dark-opening.png",
+      "sha256": "8f7733ddcd3c1a91db20e5a56d617548085fd64545cc0e6b72c5f71c2d3ba814",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "standard",
+        "density": "comfortable",
+        "font_scale": 1,
+        "width": "narrow"
+      },
+      "note": "top of the document: heading, tasks",
+      "frame": 14,
+      "visible_text": [
+        "Rock-pool survey",
+        "Notes from three low tides on the northern platform, with the open tasks and the arithmetic behind each count.[1]",
+        "Open tasks",
+        "Photograph the northern pools",
+        "Count the anemones in pool C[2]",
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool: A",
+        "Tide: Second",
+        "Area (m²): 6.0",
+        "Anemones: 31",
+        "Limpets: 54",
+        "Density (m⁻²): 5.2",
+        "Notes: Too deep to grid; two counts only",
+        "Pool: B",
+        "Tide: First",
+        "Area (m²): 4.2",
+        "Anemones: 18",
+        "Limpets: 77",
+        "Density (m⁻²): 4.3",
+        "Notes: Edges dry; wet area only",
+        "Pool: C",
+        "Tide: First",
+        "Area (m²): 3.5"
+      ],
+      "nodes": [
+        {
+          "id": "presentation.9cb0f10c5214c64e",
+          "role": "link",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "presentation.abdc05b23fc699c2",
+          "role": "link",
+          "name": "[2]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.rock-pool-survey",
+          "role": "heading",
+          "name": "Rock-pool survey",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.open-tasks",
+          "role": "heading",
+          "name": "Open tasks",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "presentation.c986238523e1e37f",
+          "role": "checkbox",
+          "name": "Photograph the northern pools",
+          "checked": true,
+          "enabled": false
+        },
+        {
+          "id": "presentation.c9152aa272649bcc",
+          "role": "checkbox",
+          "name": "Count the anemones in pool C",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "presentation.36703b0a4d270dfc",
+          "role": "checkbox",
+          "name": "Task",
+          "checked": false,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-dark-table",
+      "image": "document-narrow-dark-table.png",
+      "sha256": "f00028862365cbe0f5f0f710bdec35e9d5617277f947f2286e1402673a86bd07",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "standard",
+        "density": "comfortable",
+        "font_scale": 1,
+        "width": "narrow"
+      },
+      "note": "the counts table stacked as records",
+      "frame": 74,
+      "visible_text": [
+        "Counts",
+        "Pool: A",
+        "Tide: Second",
+        "Area (m²): 6.0",
+        "Anemones: 31",
+        "Limpets: 54",
+        "Density (m⁻²): 5.2",
+        "Notes: Too deep to grid; two counts only",
+        "Pool: B",
+        "Tide: First",
+        "Area (m²): 4.2",
+        "Anemones: 18",
+        "Limpets: 77",
+        "Density (m⁻²): 4.3",
+        "Notes: Edges dry; wet area only",
+        "Pool: C",
+        "Tide: First",
+        "Area (m²): 3.5",
+        "Anemones: 42",
+        "Limpets: 23",
+        "Density (m⁻²): 12.0",
+        "Notes: Sheltered by the ledge",
+        "Pool: D",
+        "Area (m²): 2.8",
+        "Anemones: 9",
+        "Limpets: 12",
+        "Density (m⁻²): 3.2",
+        "Notes: New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-dark-footnote-revealed",
+      "image": "document-narrow-dark-footnote-revealed.png",
+      "sha256": "b3472bcc4ce024812a162f58d9eea3c8c9ace452c824c702ae13defcb01ab82b",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "standard",
+        "density": "comfortable",
+        "font_scale": 1,
+        "width": "narrow"
+      },
+      "note": "after clicking reference [1]: its definition scrolled into view",
+      "frame": 140,
+      "visible_text": [
+        "Anemones: 42",
+        "Limpets: 23",
+        "Density (m⁻²): 12.0",
+        "Notes: Sheltered by the ledge",
+        "Pool: D",
+        "Area (m²): 2.8",
+        "Anemones: 9",
+        "Limpets: 12",
+        "Density (m⁻²): 3.2",
+        "Notes: New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:",
+        "d_C = \\frac{42}{3.5\\,\\mathrm{m}^2} \\approx 12\\ \\mathrm{m}^{-2}",
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season.",
+        "Method",
+        "Each count follows the grid laid at the first tide, read from the seaward corner. The tally sheets are in the appendix, with the photographs filed by pool and tide.",
+        "Each visit began an hour before low water.",
+        "[1]",
+        "Anemones closed by the sun were counted once.",
+        "Animals on the grid line were counted with the square to their north.",
+        "[2]"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.method",
+          "role": "heading",
+          "name": "Method",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-tides",
+          "role": "section",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-count",
+          "role": "section",
+          "name": "[2]",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-light-high-contrast-150-opening",
+      "image": "document-narrow-light-high-contrast-150-opening.png",
+      "sha256": "2e55d9f84718ea4b31fbb78ca053bc856f1ee93afe3939408923008f0e9bddfe",
+      "configuration": {
+        "appearance": "light",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "top of the document: heading, tasks",
+      "frame": 189,
+      "visible_text": [
+        "Rock-pool survey",
+        "Notes from three low tides on the northern platform, with the open tasks and the arithmetic behind each count.[1]",
+        "Open tasks",
+        "Photograph the northern pools",
+        "Count the anemones in pool C[2]",
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool: A",
+        "Tide: Second",
+        "Area (m²): 6.0",
+        "Anemones: 31"
+      ],
+      "nodes": [
+        {
+          "id": "presentation.9cb0f10c5214c64e",
+          "role": "link",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "presentation.abdc05b23fc699c2",
+          "role": "link",
+          "name": "[2]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.rock-pool-survey",
+          "role": "heading",
+          "name": "Rock-pool survey",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.open-tasks",
+          "role": "heading",
+          "name": "Open tasks",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "presentation.c986238523e1e37f",
+          "role": "checkbox",
+          "name": "Photograph the northern pools",
+          "checked": true,
+          "enabled": false
+        },
+        {
+          "id": "presentation.c9152aa272649bcc",
+          "role": "checkbox",
+          "name": "Count the anemones in pool C",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "presentation.36703b0a4d270dfc",
+          "role": "checkbox",
+          "name": "Task",
+          "checked": false,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-light-high-contrast-150-table",
+      "image": "document-narrow-light-high-contrast-150-table.png",
+      "sha256": "644ce460b78de1b6b413a108225e896b36f0e9897d200d0bbddc826692782145",
+      "configuration": {
+        "appearance": "light",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "the counts table stacked as records",
+      "frame": 274,
+      "visible_text": [
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool: A",
+        "Tide: Second",
+        "Area (m²): 6.0",
+        "Anemones: 31",
+        "Limpets: 54",
+        "Density (m⁻²): 5.2",
+        "Notes: Too deep to grid; two counts only",
+        "Pool: B",
+        "Tide: First",
+        "Area (m²): 4.2",
+        "Anemones: 18",
+        "Limpets: 77",
+        "Density (m⁻²): 4.3",
+        "Notes: Edges dry; wet area only"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-light-high-contrast-150-table-end",
+      "image": "document-narrow-light-high-contrast-150-table-end.png",
+      "sha256": "db8fd5648a4295ebcbee755ff3c5b6c68aaeb98cb1c9de226629bca15e07bcd7",
+      "configuration": {
+        "appearance": "light",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "the end of the stacked table",
+      "frame": 352,
+      "visible_text": [
+        "Density (m⁻²): 4.3",
+        "Notes: Edges dry; wet area only",
+        "Pool: C",
+        "Tide: First",
+        "Area (m²): 3.5",
+        "Anemones: 42",
+        "Limpets: 23",
+        "Density (m⁻²): 12.0",
+        "Notes: Sheltered by the ledge",
+        "Pool: D",
+        "Area (m²): 2.8",
+        "Anemones: 9",
+        "Limpets: 12",
+        "Density (m⁻²): 3.2",
+        "Notes: New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-light-high-contrast-150-footnote-revealed",
+      "image": "document-narrow-light-high-contrast-150-footnote-revealed.png",
+      "sha256": "4465005520eae9d9ee23eaa9ccbe03b4b50e039b49f22090a524a0dd27c72636",
+      "configuration": {
+        "appearance": "light",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "after clicking reference [1]: its definition scrolled into view",
+      "frame": 488,
+      "visible_text": [
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season.",
+        "Method",
+        "Each count follows the grid laid at the first tide, read from the seaward corner. The tally sheets are in the appendix, with the photographs filed by pool and tide.",
+        "Each visit began an hour before low water.",
+        "[1]",
+        "Anemones closed by the sun were counted once.",
+        "Animals on the grid line were counted with the square to their north.",
+        "[2]"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.method",
+          "role": "heading",
+          "name": "Method",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-tides",
+          "role": "section",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-count",
+          "role": "section",
+          "name": "[2]",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-dark-high-contrast-150-opening",
+      "image": "document-narrow-dark-high-contrast-150-opening.png",
+      "sha256": "e067fd45feb1b88df51f165f13a86fc30bb1a96b12b47bdd8170a1f013629947",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "top of the document: heading, tasks",
+      "frame": 573,
+      "visible_text": [
+        "Rock-pool survey",
+        "Notes from three low tides on the northern platform, with the open tasks and the arithmetic behind each count.[1]",
+        "Open tasks",
+        "Photograph the northern pools",
+        "Count the anemones in pool C[2]",
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool: A",
+        "Tide: Second",
+        "Area (m²): 6.0",
+        "Anemones: 31"
+      ],
+      "nodes": [
+        {
+          "id": "presentation.9cb0f10c5214c64e",
+          "role": "link",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "presentation.abdc05b23fc699c2",
+          "role": "link",
+          "name": "[2]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.rock-pool-survey",
+          "role": "heading",
+          "name": "Rock-pool survey",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.open-tasks",
+          "role": "heading",
+          "name": "Open tasks",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "presentation.c986238523e1e37f",
+          "role": "checkbox",
+          "name": "Photograph the northern pools",
+          "checked": true,
+          "enabled": false
+        },
+        {
+          "id": "presentation.c9152aa272649bcc",
+          "role": "checkbox",
+          "name": "Count the anemones in pool C",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "presentation.36703b0a4d270dfc",
+          "role": "checkbox",
+          "name": "Task",
+          "checked": false,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-dark-high-contrast-150-table",
+      "image": "document-narrow-dark-high-contrast-150-table.png",
+      "sha256": "bb093c38fb515638211ca93609587f44ab0d06b243198980c54f79201c8b98af",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "the counts table stacked as records",
+      "frame": 658,
+      "visible_text": [
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool: A",
+        "Tide: Second",
+        "Area (m²): 6.0",
+        "Anemones: 31",
+        "Limpets: 54",
+        "Density (m⁻²): 5.2",
+        "Notes: Too deep to grid; two counts only",
+        "Pool: B",
+        "Tide: First",
+        "Area (m²): 4.2",
+        "Anemones: 18",
+        "Limpets: 77",
+        "Density (m⁻²): 4.3",
+        "Notes: Edges dry; wet area only"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-dark-high-contrast-150-table-end",
+      "image": "document-narrow-dark-high-contrast-150-table-end.png",
+      "sha256": "14a7cc4a1cd759d0ab4e477621619c46531ec42524c7ca51e506b724d0de778e",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "the end of the stacked table",
+      "frame": 736,
+      "visible_text": [
+        "Density (m⁻²): 4.3",
+        "Notes: Edges dry; wet area only",
+        "Pool: C",
+        "Tide: First",
+        "Area (m²): 3.5",
+        "Anemones: 42",
+        "Limpets: 23",
+        "Density (m⁻²): 12.0",
+        "Notes: Sheltered by the ledge",
+        "Pool: D",
+        "Area (m²): 2.8",
+        "Anemones: 9",
+        "Limpets: 12",
+        "Density (m⁻²): 3.2",
+        "Notes: New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-narrow-dark-high-contrast-150-footnote-revealed",
+      "image": "document-narrow-dark-high-contrast-150-footnote-revealed.png",
+      "sha256": "a685f3f1f86424380d0b4bdda563b33f8d8668c3adfc52b77215859dc3863974",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "narrow"
+      },
+      "note": "after clicking reference [1]: its definition scrolled into view",
+      "frame": 872,
+      "visible_text": [
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season.",
+        "Method",
+        "Each count follows the grid laid at the first tide, read from the seaward corner. The tally sheets are in the appendix, with the photographs filed by pool and tide.",
+        "Each visit began an hour before low water.",
+        "[1]",
+        "Anemones closed by the sun were counted once.",
+        "Animals on the grid line were counted with the square to their north.",
+        "[2]"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.method",
+          "role": "heading",
+          "name": "Method",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-tides",
+          "role": "section",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-count",
+          "role": "section",
+          "name": "[2]",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-wide-dark-opening",
+      "image": "document-wide-dark-opening.png",
+      "sha256": "984dfa1e168b0cedd60809643fbb9f30d90154f5679854dd945fc277a2d9c98b",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "standard",
+        "density": "comfortable",
+        "font_scale": 1,
+        "width": "wide"
+      },
+      "note": "top of the document: heading, tasks; the whole table is in view without scrolling",
+      "frame": 883,
+      "visible_text": [
+        "Rock-pool survey",
+        "Notes from three low tides on the northern platform, with the open tasks and the arithmetic behind each count.[1]",
+        "Open tasks",
+        "Photograph the northern pools",
+        "Count the anemones in pool C[2]",
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool",
+        "Tide",
+        "Area (m²)",
+        "Anemones",
+        "Limpets",
+        "Density (m⁻²)",
+        "Notes",
+        "A",
+        "Second",
+        "6.0",
+        "31",
+        "54",
+        "5.2",
+        "Too deep to grid; two counts only",
+        "B",
+        "First",
+        "4.2",
+        "18",
+        "77",
+        "4.3",
+        "Edges dry; wet area only",
+        "C",
+        "First",
+        "3.5",
+        "42",
+        "23",
+        "12.0",
+        "Sheltered by the ledge",
+        "D",
+        "2.8",
+        "9",
+        "12",
+        "3.2",
+        "New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:",
+        "d_C = \\frac{42}{3.5\\,\\mathrm{m}^2} \\approx 12\\ \\mathrm{m}^{-2}",
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season.",
+        "Method",
+        "Each count follows the grid laid at the first tide, read from the seaward corner. The tally sheets are in the appendix, with the photographs filed by pool and tide.",
+        "Each visit began an hour before low water.",
+        "[1]",
+        "Anemones closed by the sun were counted once.",
+        "Animals on the grid line were counted with the square to their north.",
+        "[2]"
+      ],
+      "nodes": [
+        {
+          "id": "presentation.9cb0f10c5214c64e",
+          "role": "link",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "presentation.abdc05b23fc699c2",
+          "role": "link",
+          "name": "[2]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.rock-pool-survey",
+          "role": "heading",
+          "name": "Rock-pool survey",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.open-tasks",
+          "role": "heading",
+          "name": "Open tasks",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.method",
+          "role": "heading",
+          "name": "Method",
+          "enabled": true
+        },
+        {
+          "id": "presentation.c986238523e1e37f",
+          "role": "checkbox",
+          "name": "Photograph the northern pools",
+          "checked": true,
+          "enabled": false
+        },
+        {
+          "id": "presentation.c9152aa272649bcc",
+          "role": "checkbox",
+          "name": "Count the anemones in pool C",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "presentation.36703b0a4d270dfc",
+          "role": "checkbox",
+          "name": "Task",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "gallery.document.footnote-tides",
+          "role": "section",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-count",
+          "role": "section",
+          "name": "[2]",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-wide-light-high-contrast-150-opening",
+      "image": "document-wide-light-high-contrast-150-opening.png",
+      "sha256": "246176dbd0e0577beef8a2d01b67df2b6ff96031289f6a2c82342d420ad630c1",
+      "configuration": {
+        "appearance": "light",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "wide"
+      },
+      "note": "top of the document: heading, tasks",
+      "frame": 908,
+      "visible_text": [
+        "Rock-pool survey",
+        "Notes from three low tides on the northern platform, with the open tasks and the arithmetic behind each count.[1]",
+        "Open tasks",
+        "Photograph the northern pools",
+        "Count the anemones in pool C[2]",
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool",
+        "Tide",
+        "Area (m²)",
+        "Anemones",
+        "Limpets",
+        "Density (m⁻²)",
+        "Notes",
+        "A",
+        "Second",
+        "6.0",
+        "31",
+        "54",
+        "5.2",
+        "Too deep to grid; two counts only",
+        "B",
+        "First",
+        "4.2",
+        "18",
+        "77",
+        "4.3",
+        "Edges dry; wet area only",
+        "C",
+        "First",
+        "3.5",
+        "42",
+        "23",
+        "12.0",
+        "Sheltered by the ledge",
+        "D",
+        "2.8",
+        "9",
+        "12",
+        "3.2",
+        "New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:",
+        "d_C = \\frac{42}{3.5\\,\\mathrm{m}^2} \\approx 12\\ \\mathrm{m}^{-2}",
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season."
+      ],
+      "nodes": [
+        {
+          "id": "presentation.9cb0f10c5214c64e",
+          "role": "link",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "presentation.abdc05b23fc699c2",
+          "role": "link",
+          "name": "[2]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.rock-pool-survey",
+          "role": "heading",
+          "name": "Rock-pool survey",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.open-tasks",
+          "role": "heading",
+          "name": "Open tasks",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        },
+        {
+          "id": "presentation.c986238523e1e37f",
+          "role": "checkbox",
+          "name": "Photograph the northern pools",
+          "checked": true,
+          "enabled": false
+        },
+        {
+          "id": "presentation.c9152aa272649bcc",
+          "role": "checkbox",
+          "name": "Count the anemones in pool C",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "presentation.36703b0a4d270dfc",
+          "role": "checkbox",
+          "name": "Task",
+          "checked": false,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "name": "document-wide-light-high-contrast-150-table",
+      "image": "document-wide-light-high-contrast-150-table.png",
+      "sha256": "8ce7378de81f85e0e9ecaef62417b143e3f3387ba2d9be3be462b4bf0ae26054",
+      "configuration": {
+        "appearance": "light",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "wide"
+      },
+      "note": "the counts table as a grid",
+      "frame": 978,
+      "visible_text": [
+        "Counts",
+        "Pool",
+        "Tide",
+        "Area (m²)",
+        "Anemones",
+        "Limpets",
+        "Density (m⁻²)",
+        "Notes",
+        "A",
+        "Second",
+        "6.0",
+        "31",
+        "54",
+        "5.2",
+        "Too deep to grid; two counts only",
+        "B",
+        "First",
+        "4.2",
+        "18",
+        "77",
+        "4.3",
+        "Edges dry; wet area only",
+        "C",
+        "First",
+        "3.5",
+        "42",
+        "23",
+        "12.0",
+        "Sheltered by the ledge",
+        "D",
+        "2.8",
+        "9",
+        "12",
+        "3.2",
+        "New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:",
+        "d_C = \\frac{42}{3.5\\,\\mathrm{m}^2} \\approx 12\\ \\mathrm{m}^{-2}",
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season.",
+        "Method",
+        "Each count follows the grid laid at the first tide, read from the seaward corner. The tally sheets are in the appendix, with the photographs filed by pool and tide.",
+        "Each visit began an hour before low water.",
+        "[1]",
+        "Anemones closed by the sun were counted once.",
+        "Animals on the grid line were counted with the square to their north.",
+        "[2]"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.method",
+          "role": "heading",
+          "name": "Method",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-tides",
+          "role": "section",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-count",
+          "role": "section",
+          "name": "[2]",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "document-wide-dark-high-contrast-150-opening",
+      "image": "document-wide-dark-high-contrast-150-opening.png",
+      "sha256": "0d79ca5dfacdc7cda7e733012b4905185c77cdaf38e5d87d26c1516c6c6a2895",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "wide"
+      },
+      "note": "top of the document: heading, tasks",
+      "frame": 1010,
+      "visible_text": [
+        "Rock-pool survey",
+        "Notes from three low tides on the northern platform, with the open tasks and the arithmetic behind each count.[1]",
+        "Open tasks",
+        "Photograph the northern pools",
+        "Count the anemones in pool C[2]",
+        "Compare the counts with last season's survey, which used a coarser grid.",
+        "Counts",
+        "Pool",
+        "Tide",
+        "Area (m²)",
+        "Anemones",
+        "Limpets",
+        "Density (m⁻²)",
+        "Notes",
+        "A",
+        "Second",
+        "6.0",
+        "31",
+        "54",
+        "5.2",
+        "Too deep to grid; two counts only",
+        "B",
+        "First",
+        "4.2",
+        "18",
+        "77",
+        "4.3",
+        "Edges dry; wet area only",
+        "C",
+        "First",
+        "3.5",
+        "42",
+        "23",
+        "12.0",
+        "Sheltered by the ledge",
+        "D",
+        "2.8",
+        "9",
+        "12",
+        "3.2",
+        "New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:",
+        "d_C = \\frac{42}{3.5\\,\\mathrm{m}^2} \\approx 12\\ \\mathrm{m}^{-2}",
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season."
+      ],
+      "nodes": [
+        {
+          "id": "presentation.9cb0f10c5214c64e",
+          "role": "link",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "presentation.abdc05b23fc699c2",
+          "role": "link",
+          "name": "[2]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.rock-pool-survey",
+          "role": "heading",
+          "name": "Rock-pool survey",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.open-tasks",
+          "role": "heading",
+          "name": "Open tasks",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        },
+        {
+          "id": "presentation.c986238523e1e37f",
+          "role": "checkbox",
+          "name": "Photograph the northern pools",
+          "checked": true,
+          "enabled": false
+        },
+        {
+          "id": "presentation.c9152aa272649bcc",
+          "role": "checkbox",
+          "name": "Count the anemones in pool C",
+          "checked": false,
+          "enabled": false
+        },
+        {
+          "id": "presentation.36703b0a4d270dfc",
+          "role": "checkbox",
+          "name": "Task",
+          "checked": false,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "name": "document-wide-dark-high-contrast-150-table",
+      "image": "document-wide-dark-high-contrast-150-table.png",
+      "sha256": "2caf0a11a6ba3cfd67ee62af3f5cc8c42c03afd55ec121ffd3d7c43c99ee438b",
+      "configuration": {
+        "appearance": "dark",
+        "contrast": "high",
+        "density": "comfortable",
+        "font_scale": 1.5,
+        "width": "wide"
+      },
+      "note": "the counts table as a grid",
+      "frame": 1080,
+      "visible_text": [
+        "Counts",
+        "Pool",
+        "Tide",
+        "Area (m²)",
+        "Anemones",
+        "Limpets",
+        "Density (m⁻²)",
+        "Notes",
+        "A",
+        "Second",
+        "6.0",
+        "31",
+        "54",
+        "5.2",
+        "Too deep to grid; two counts only",
+        "B",
+        "First",
+        "4.2",
+        "18",
+        "77",
+        "4.3",
+        "Edges dry; wet area only",
+        "C",
+        "First",
+        "3.5",
+        "42",
+        "23",
+        "12.0",
+        "Sheltered by the ledge",
+        "D",
+        "2.8",
+        "9",
+        "12",
+        "3.2",
+        "New this season",
+        "Density",
+        "Density is d = n / A for n animals in an area A, so pool C holds:",
+        "d_C = \\frac{42}{3.5\\,\\mathrm{m}^2} \\approx 12\\ \\mathrm{m}^{-2}",
+        "Pool A was too deep to grid on the second tide, so its estimate rests on two counts. Pool B dried out at the edges, and the count there includes only the wet area. Pool D is new this season.",
+        "Method",
+        "Each count follows the grid laid at the first tide, read from the seaward corner. The tally sheets are in the appendix, with the photographs filed by pool and tide.",
+        "Each visit began an hour before low water.",
+        "[1]",
+        "Anemones closed by the sun were counted once.",
+        "Animals on the grid line were counted with the square to their north.",
+        "[2]"
+      ],
+      "nodes": [
+        {
+          "id": "gallery.document.counts",
+          "role": "heading",
+          "name": "Counts",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.density",
+          "role": "heading",
+          "name": "Density",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.method",
+          "role": "heading",
+          "name": "Method",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-tides",
+          "role": "section",
+          "name": "[1]",
+          "enabled": true
+        },
+        {
+          "id": "gallery.document.footnote-count",
+          "role": "section",
+          "name": "[2]",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "task_box_contrast": [
+    {
+      "name": "task-box-dark-standard-1x",
+      "image": "task-box-dark-standard-1x.png",
+      "sha256": "b475780fa33c358442fd91d96daac8753186f5fd9cb6518ba30aeb78e47b31cd",
+      "device_scale": 1,
+      "appearance": "dark",
+      "contrast": "standard",
+      "box_points": {
+        "min_x": 374,
+        "min_y": 230.27499389648438,
+        "max_x": 385,
+        "max_y": 241.27499389648438
+      },
+      "box_pixels": {
+        "left": 374,
+        "right": 384,
+        "top": 230,
+        "bottom": 240
+      },
+      "surface": "#13181d",
+      "sides": {
+        "left": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        },
+        "right": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        },
+        "top": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        },
+        "bottom": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        }
+      },
+      "least_ratio": 7.51
+    },
+    {
+      "name": "task-box-dark-high-1x",
+      "image": "task-box-dark-high-1x.png",
+      "sha256": "29e6516fcb897724de962d88c9430c564bf6b9d45580a5a650be3c85abdaadcc",
+      "device_scale": 1,
+      "appearance": "dark",
+      "contrast": "high",
+      "box_points": {
+        "min_x": 374,
+        "min_y": 230.27499389648438,
+        "max_x": 385,
+        "max_y": 241.27499389648438
+      },
+      "box_pixels": {
+        "left": 374,
+        "right": 384,
+        "top": 230,
+        "bottom": 240
+      },
+      "surface": "#090d0f",
+      "sides": {
+        "left": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        },
+        "right": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        },
+        "top": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        },
+        "bottom": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        }
+      },
+      "least_ratio": 14.19
+    },
+    {
+      "name": "task-box-light-standard-1x",
+      "image": "task-box-light-standard-1x.png",
+      "sha256": "26c04a7fdae85e0840c5e9baa38689858a2edb0bf74cb033eac8d57663efc8a0",
+      "device_scale": 1,
+      "appearance": "light",
+      "contrast": "standard",
+      "box_points": {
+        "min_x": 374,
+        "min_y": 230.27499389648438,
+        "max_x": 385,
+        "max_y": 241.27499389648438
+      },
+      "box_pixels": {
+        "left": 374,
+        "right": 384,
+        "top": 230,
+        "bottom": 240
+      },
+      "surface": "#ffffff",
+      "sides": {
+        "left": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        },
+        "right": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        },
+        "top": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        },
+        "bottom": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        }
+      },
+      "least_ratio": 6.39
+    },
+    {
+      "name": "task-box-light-high-1x",
+      "image": "task-box-light-high-1x.png",
+      "sha256": "2d721b517eeedfa6dbb2434bf3606ccef7bfb937113f2f662dc26a4a3b601312",
+      "device_scale": 1,
+      "appearance": "light",
+      "contrast": "high",
+      "box_points": {
+        "min_x": 374,
+        "min_y": 230.27499389648438,
+        "max_x": 385,
+        "max_y": 241.27499389648438
+      },
+      "box_pixels": {
+        "left": 374,
+        "right": 384,
+        "top": 230,
+        "bottom": 240
+      },
+      "surface": "#ffffff",
+      "sides": {
+        "left": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        },
+        "right": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        },
+        "top": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        },
+        "bottom": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        }
+      },
+      "least_ratio": 11.48
+    },
+    {
+      "name": "task-box-dark-standard-2x",
+      "image": "task-box-dark-standard-2x.png",
+      "sha256": "aa39c9d62aeb0c54da79a8ff0f83c7ea251c298123f595d6882a220714568dc7",
+      "device_scale": 2,
+      "appearance": "dark",
+      "contrast": "standard",
+      "box_points": {
+        "min_x": 272,
+        "min_y": 264.82501220703125,
+        "max_x": 283,
+        "max_y": 275.82501220703125
+      },
+      "box_pixels": {
+        "left": 1088,
+        "right": 1131,
+        "top": 1059,
+        "bottom": 1102
+      },
+      "surface": "#13181d",
+      "sides": {
+        "left": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        },
+        "right": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        },
+        "top": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        },
+        "bottom": {
+          "colour": "#9daab3",
+          "ratio": 7.51
+        }
+      },
+      "least_ratio": 7.51
+    },
+    {
+      "name": "task-box-dark-high-2x",
+      "image": "task-box-dark-high-2x.png",
+      "sha256": "65f404487c923b6ba502f4f4d827fb895c380eceac91f52f397904b8ebd16f47",
+      "device_scale": 2,
+      "appearance": "dark",
+      "contrast": "high",
+      "box_points": {
+        "min_x": 272,
+        "min_y": 264.82501220703125,
+        "max_x": 283,
+        "max_y": 275.82501220703125
+      },
+      "box_pixels": {
+        "left": 1088,
+        "right": 1131,
+        "top": 1059,
+        "bottom": 1102
+      },
+      "surface": "#090d0f",
+      "sides": {
+        "left": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        },
+        "right": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        },
+        "top": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        },
+        "bottom": {
+          "colour": "#d5dde2",
+          "ratio": 14.19
+        }
+      },
+      "least_ratio": 14.19
+    },
+    {
+      "name": "task-box-light-standard-2x",
+      "image": "task-box-light-standard-2x.png",
+      "sha256": "3e396f7c7f98e32b83ae4985547d2616b7ec707a4c710821e77ee67d1853d372",
+      "device_scale": 2,
+      "appearance": "light",
+      "contrast": "standard",
+      "box_points": {
+        "min_x": 272,
+        "min_y": 264.82501220703125,
+        "max_x": 283,
+        "max_y": 275.82501220703125
+      },
+      "box_pixels": {
+        "left": 1088,
+        "right": 1131,
+        "top": 1059,
+        "bottom": 1102
+      },
+      "surface": "#ffffff",
+      "sides": {
+        "left": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        },
+        "right": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        },
+        "top": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        },
+        "bottom": {
+          "colour": "#53616a",
+          "ratio": 6.39
+        }
+      },
+      "least_ratio": 6.39
+    },
+    {
+      "name": "task-box-light-high-2x",
+      "image": "task-box-light-high-2x.png",
+      "sha256": "3c0a5587e90dcfab62d1e973e3794ac45d9aff626df5eadf98076b02b2b78e80",
+      "device_scale": 2,
+      "appearance": "light",
+      "contrast": "high",
+      "box_points": {
+        "min_x": 272,
+        "min_y": 264.82501220703125,
+        "max_x": 283,
+        "max_y": 275.82501220703125
+      },
+      "box_pixels": {
+        "left": 1088,
+        "right": 1131,
+        "top": 1059,
+        "bottom": 1102
+      },
+      "surface": "#ffffff",
+      "sides": {
+        "left": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        },
+        "right": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        },
+        "top": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        },
+        "bottom": {
+          "colour": "#303b42",
+          "ratio": 11.48
+        }
+      },
+      "least_ratio": 11.48
+    }
+  ],
+  "input_route": "Physical Playwright wheel and mouse; hooks only choose the story and appearance and read observations",
+  "errors": []
+}
